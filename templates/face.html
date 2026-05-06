@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Verification</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="/static/css/js/face.js"></script>
+</head>
+<body>
+<div class="box">
+    <h2>Face Verification</h2>
+    <video id="video" width="280" autoplay></video>
+    <br><br>
+    <button onclick="face()">Verify Face</button>
+</div>
+
+<script>
+navigator.mediaDevices.getUserMedia({ video: true })
+.then(stream => {
+    document.getElementById("video").srcObject = stream;
+});
+</script>
+</body>
+</html>

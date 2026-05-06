@@ -1,0 +1,75 @@
+/* Page background */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Form box */
+form {
+    width: 360px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Heading */
+form h2 {
+    margin-bottom: 20px;
+    color: #243b55;
+}
+
+/* Inputs */
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Focus */
+form input:focus {
+    outline: none;
+    border-color: #243b55;
+}
+
+/* Button */
+form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #243b55;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover */
+form button:hover {
+    background: #1b2f45;
+}
+
+/* Login link */
+a {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

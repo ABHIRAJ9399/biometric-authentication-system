@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    font-family: Arial;
+}
+
+.scan-box {
+    width: 360px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.fingerprint-icon {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #243b55;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
